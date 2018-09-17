@@ -14,53 +14,39 @@ body {
 }
 
 button {
-  float: right;
-  display: inline-block;
-	background-color: lightblue;
-	border-color: black;
-	// color:
-	// font-weight:
-	padding: 15px;
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: $light-blue;
+	border-color: $dark-blue;
+	color: white;
+	font-weight: bold;
+	padding: 7px 9px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: $sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
 }
 
-li {
-  display: inline-block;
-}
-
-nav {
-  display: inline-block;
-  padding: 15px;
-}
-
-span {
-  border: solid;
-  padding: 15px;
-}
-
-.left-nav {
-  float: left;
-
-}
-
-.right-nav {
-  float: right;
-}
-
-// 
-//  #settings-button i {
-//   display: inline-block;
-//   float: right;
-// }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+	border-color: $darkest-blue;
+}
+
+.masthead-links button:hover {
+  background-color: $gray;
+}
+
+.masthead-links a{
+  color: black;
+}
+
+.masthead-links a:hover {
+  text-decoration: underline;
+}
+
+.language-nav a:hover{
+  text-decoration: underline;
 }
 
 /*
