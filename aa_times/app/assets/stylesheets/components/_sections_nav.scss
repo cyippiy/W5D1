@@ -1,0 +1,28 @@
+.sections-nav{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.sections-nav ul{
+  display: flex;
+  padding: 10px;
+}
+
+.sections-nav li{
+  margin: 0 10px;
+}
+
+.sections-nav li:hover {
+	background-color: $light-gray;
+}
+
+// .link_all a:hover{
+//   background-color: white;
+//   text-decoration: underline;
+// }
+
+.sections-nav li:last-of-type:hover{
+  text-decoration: underline;
+  background-color: white;
+}

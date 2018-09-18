@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+.left-nav{
+  display: flex;
+}
+
 .left-nav > ul > li {
   font-family: $sans-serif;
   font-size: 15px;

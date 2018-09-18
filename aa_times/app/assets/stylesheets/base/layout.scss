@@ -33,11 +33,11 @@ button:hover {
 	border-color: $darkest-blue;
 }
 
-.masthead-links button:hover {
-  background-color: $gray;
+.masthead-links li button:hover {
+  background-color: $light-gray;
 }
 
-.masthead-links a{
+a{
   color: black;
 }
 
@@ -47,6 +47,10 @@ button:hover {
 
 .language-nav a:hover{
   text-decoration: underline;
+}
+
+.hidden {
+  display: none;
 }
 
 /*
